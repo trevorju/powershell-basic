@@ -23,11 +23,10 @@ if (-not $olemasolev) {
 else {
      
       Write-Host "Kasutaja loomisega on tekkinud probleem"
+      Write-Host "Kasutaja juba eksisteerib"
     exit
 }
 
 
-sleep 10
 
 
-Get-LocalUser
